@@ -7,18 +7,18 @@ Ejemplos para cargar corpus propios en NLTK con PlaintextCorpusReader.
 
 <strong>Argumentos para instanciar la clase PlaintextCorpusReader</strong>
 
-root&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(obligatorio)<br />
-fileids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(obligatorio)<br />
+root&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(obligatorio)<br />
+fileids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(obligatorio)<br />
 word_tokenizer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. WordPunctTokenizer() por defecto)<br />
 sent_tokenizer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. nltk.data.LazyLoader() por defecto)<br />
 para_block_reader&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. read_blankline_block por defecto)<br />
 encoding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. None por defecto)<br />
 <br />
 
-<strong>Segmentadores incluidos en NLTK</strong>
+<b>Segmentadores incluidos en NLTK</b>
 
 Muchas de estas clases tienen una funcion equivalente.<br />
-dir(nltk.tokenize) para detalles.<br /><br />
+<code>dir(nltk.tokenize) para detalles.</code><br />
 
 WhitespaceTokenizer()<br />
 SpaceTokenizer()<br />
@@ -37,7 +37,7 @@ TreebankWordTokenizer()<br />
 
 <strong>Algunas funciones utiles</strong>
 
-dir(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.<br />
-repr(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;representa un objecto literalmente. Especialmente util para cadenas de caracteres.<br />
-import inspect<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print inspect.getsource(__OBJECT__)
+<code>dir(<i>OBJECTO</i>)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.<br />
+<code>repr(<i>OBJECTO</i)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;representa un objecto literalmente. Especialmente util para cadenas de caracteres.<br />
+<code>import inspect<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print inspect.getsource(<i>OBJECTO</i>)</code>
