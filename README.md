@@ -33,6 +33,6 @@ TreebankWordTokenizer()<br />
 
 <strong>Algunas funciones utiles</strong>
 
-dir(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.
-repr(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra la representacion de un objecto con simbolos especiales. Especialmente util para cadenas de caracteres.
+dir(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.<br />
+repr(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra la representacion de un objecto con simbolos especiales. Especialmente util para cadenas de caracteres.<br />
 
