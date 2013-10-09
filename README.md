@@ -2,7 +2,7 @@ PlaintextCorpusReader
 =====================
 
 Ejemplos para cargar corpus propios en NLTK con PlaintextCorpusReader.
-
+<br />
 
 <strong>Argumentos para instanciar la clase PlaintextCorpusReader</strong>
 
@@ -12,7 +12,7 @@ word_tokenizer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. WordPun
 sent_tokenizer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. nltk.data.LazyLoader() por defecto)<br />
 para_block_reader&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. read_blankline_block por defecto)<br />
 encoding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. None por defecto)<br />
-
+<br />
 
 <strong>Segmentadores incluidos en NLTK (ver nltk.tokenize)</strong>
 
@@ -29,3 +29,10 @@ SExprTokenizer()<br />
 PunktSentenceTokenizer()<br />
 PunktWordTokenizer()<br />
 TreebankWordTokenizer()<br />
+<br />
+
+<strong>Algunas funciones utiles</strong>
+
+dir(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.
+repr(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra la representacion de un objecto con simbolos especiales. Especialmente util para cadenas de caracteres.
+
