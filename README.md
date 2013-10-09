@@ -5,7 +5,7 @@ Ejemplos para cargar corpus propios en NLTK con PlaintextCorpusReader.
 <br />
 <br />
 
-<strong>Argumentos para instanciar la clase PlaintextCorpusReader</strong>
+<b>Argumentos para instanciar la clase PlaintextCorpusReader</b>
 
 root&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(obligatorio)<br />
 fileids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(obligatorio)<br />
@@ -18,7 +18,7 @@ encoding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Segmentadores incluidos en NLTK</b>
 
 Muchas de estas clases tienen una funcion equivalente.<br />
-<code>dir(nltk.tokenize) para detalles.</code><br />
+<code>dir(nltk.tokenize)</code> para detalles.<br />
 
 WhitespaceTokenizer()<br />
 SpaceTokenizer()<br />
@@ -38,6 +38,6 @@ TreebankWordTokenizer()<br />
 <strong>Algunas funciones utiles</strong>
 
 <code>dir(<i>OBJECTO</i>)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.<br />
-<code>repr(<i>OBJECTO</i)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;representa un objecto literalmente. Especialmente util para cadenas de caracteres.<br />
+<code>repr(<i>OBJECTO</i>)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;representa un objecto literalmente. Especialmente util para cadenas de caracteres.<br /><br />
 <code>import inspect<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print inspect.getsource(<i>OBJECTO</i>)</code>
