@@ -7,11 +7,11 @@ root_path = 'eptmk/'
 # Expresion regular para los archivos a ser cargados.
 re_fileids = r'.*\.txt'
 
-
+# Instanciar la clase PlaintextCorpusReader.
 eptmk = nltk.corpus.PlaintextCorpusReader(root=root_path,
                                           fileids=re_fileids)
 
-# Proximas lineas solo muestran resultados dentro del promp interactivo.
+# Proximas lineas solo muestran resultados dentro del prompt interactivo.
 # Si se ejecutan desde un script hay que anteponer un "print".
 
 # Mostrar archivos del corpus.
