@@ -15,7 +15,10 @@ para_block_reader&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. read
 encoding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opcional. None por defecto)<br />
 <br />
 
-<strong>Segmentadores incluidos en NLTK (ver nltk.tokenize)</strong>
+<strong>Segmentadores incluidos en NLTK</strong>
+
+Muchas de estas clases tienen una funcion equivalente.<br />
+dir(nltk.tokenize) para detalles.<br /><br />
 
 WhitespaceTokenizer()<br />
 SpaceTokenizer()<br />
@@ -35,6 +38,6 @@ TreebankWordTokenizer()<br />
 <strong>Algunas funciones utiles</strong>
 
 dir(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra nombres definidos para un objecto.<br />
-repr(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;muestra la representacion de un objecto con simbolos especiales. Especialmente util para cadenas de caracteres.<br />
-import inspect
+repr(__OBJECTO__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;representa un objecto literalmente. Especialmente util para cadenas de caracteres.<br />
+import inspect<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print inspect.getsource(__OBJECT__)
